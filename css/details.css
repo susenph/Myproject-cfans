@@ -1,0 +1,201 @@
+/*********  头部 ***********/
+header{
+    background: #e7e7e7;
+    height: 855px;
+    position: relative;
+}
+.my_header{
+    position: absolute;
+    z-index: 10;
+}
+/*********  头部中间部分 ***********/
+div.goods_details{
+    width: 338px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    margin-left: -169px;
+    text-align: center;
+    z-index: 100;
+}
+div.goods_details>ul>li{
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 30px;
+}
+div.goods_details>ul+span{
+    font-size: 16px;
+    color: #999;
+}
+h3.type{
+    font-weight: 100;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+span.price{
+    font-size: 20px;
+    font-weight: inherit;
+    color: #999;
+}
+p.style{
+    font-size: 8px;
+}
+div.size{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #999;
+    font-size: 8px;
+    line-height: 36px;
+    margin-right: 20px;
+}
+div.goods_details a{
+    color: #000;
+    font-size: 8px;
+}
+div.goods_details a:hover{
+    color: #999;//
+}
+div.goods_details p.bag{
+    display: block;
+    width: 250px;
+    height: 35px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    margin-left: 44px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+/********* 头部轮播图 ********/
+header>div.shuffling{
+    padding-top: 7.5rem;
+    position: relative;
+    height: 855px;
+}
+header>div.shuffling>div.shuffling_big{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header>div.shuffling>div.shuffling_big>img{
+    width: 1000px;
+    z-index: 1;
+    margin-left: -150px;
+}
+header>div.shuffling>div.shuffling_sm{
+    position: absolute;
+    right: 0;
+}
+header>div.shuffling>div.shuffling_sm>img{
+    width: 675px;
+    margin-right: 70px;
+}
+header>div.shuffling>a{
+    position: absolute;
+    z-index: 1000;
+    font-size: 7rem;
+    background: transparent;
+    border: 0;
+    margin-top: -84px;
+    top: 50%;
+    color: #000;
+}
+header>div.shuffling>a.on_left{
+    left: 50px;
+}
+header>div.shuffling>a.on_right{
+    right: 50px;
+}
+/************** 尺寸选择框 ********************/
+select.size_chs{
+    position: absolute;
+    top: 325px;
+    left: 82px;
+    z-index: 1100;
+}
+select.size_chs>option{
+    width: 120px;
+    height: 40px;
+    border-bottom: 1px solid #999;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+select.size_chs>option:first-child{
+    background: #f2efec;
+    color: #000;
+}
+.hidden{
+    display: none;
+}
+/********** 中间主体:第一部分 **********/
+div.container-fluid>div.body_one{
+    background: rgba(255, 255, 255, 0.8);
+    height: 1500px;
+}
+div.accordion>div.title>i{
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+div.accordion>div.title{
+    font-size: 20px;
+    color: #999;
+    border-top: 1px solid #999;
+    cursor:pointer;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 15px;
+}
+div.accordion>div.title::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.accordion>.content{
+    font-size: 12px;
+    color: #171a1d;
+    padding-left: 15px;
+    padding-right: 50%;
+}
+.accordion>:nth-child(4){
+    padding-right: 0;
+}
+.accordion>:nth-child(4)>h3{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.accordion>:nth-child(4)>span{
+    padding-left: 146px;
+}
+.accordion>.fade{
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.accordion>.in{
+    height: 300px;
+    opacity: 1;
+}
+.accordion>:last-child{
+    border-bottom: 1px solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

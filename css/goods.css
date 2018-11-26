@@ -1,0 +1,54 @@
+header{
+    background: #000;
+}
+/******** 导航信息 *******/
+div.container-fluid>div:first-child ul li{
+    float: left;
+}
+div.container-fluid>div:first-child>div:first-child ul li a{
+    color: #999;
+    font-size: 20px;
+}
+div.container-fluid>div:first-child>div:first-child ul li:last-child{
+    margin-top: 5px;
+}
+div.container-fluid>div:first-child>div:first-child ul li a:hover{
+    color: #000;
+}
+div.container-fluid>div:first-child>div:last-child ul{
+    float: right;
+}
+div.container-fluid>div:first-child>div:first-child ul li,div.container-fluid>div:first-child>div:last-child ul li span{
+    color: #999;
+}
+/*********** 图片背景墙 ***********/
+div.commodity_wall>div{
+    background: #e7e7e7;
+}
+div.commodity_wall>div>p{
+    margin-bottom: 40px;
+}
+div.commodity_wall>div p>i{
+    color: #999;
+}
+div.commodity_wall>div p>i:first-child{
+    padding:20px 0px 0px 20px;
+}
+div.commodity_wall>div p>i:last-child{
+    float: right;
+    padding:20px 20px 0px 0px;
+}
+div.commodity_wall>div{
+    width: 24.96%;
+    margin-bottom: 1px;
+}
+div.commodity_wall>div>img{
+    width: 100%;
+}
+div.bg-white{
+    height: 20px;
+}
+
+
+
+

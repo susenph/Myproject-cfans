@@ -1,0 +1,273 @@
+/****** 头部样式 ****/
+#header_bg{
+    height: 46rem;
+    transition: all .5s linear;
+    background: url("../img/index/bg/bg1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+header>div.container-fluid{
+    background: transparent;
+}
+header div.d-table{
+    height: 38.5rem;
+}
+div.d-table div.text-white{
+    vertical-align: middle;
+}
+header .d-table .d-table-cell div:first-child span{
+    font-size: 1.4rem;
+    font-family: 方正舒体;
+}
+header .d-table .d-table-cell div:nth-child(2) span{
+    font-size: 4rem;
+    font-family: SimSun-ExtB;
+}
+header .d-table .d-table-cell div:last-child a{
+    font-size: 0.75rem;
+    color: #e5dfd9;
+    width: 8.2rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: #1b1b1b;
+    line-height: 2.5rem;
+}
+header .d-table .d-table-cell div:last-child a:hover{
+    text-decoration: none;
+    background-color: #999;
+}
+/******** 主体 ***********/
+div.container-fluid{
+    background: #e7e7e7;
+    
+}
+header+div.container-fluid>*{
+    width: 100%;
+}
+
+/****** 主体one部分 ******/
+div.container-fluid div.body_one div a{
+    width: 180px;
+    height: 380px;
+    float: right;
+    text-decoration: none;
+    margin-top: 170px;
+    background: #f6f6f6;
+    color: #1b1b1b;
+}
+div.container-fluid div.body_one div:last-child a{
+    float: left;
+}
+div.container-fluid div.body_one div a span{
+    margin-left: 65px;
+    font-family: "Vladimir Script";
+}
+div.container-fluid div.body_one div:last-child a i{
+    margin-left: 57px;
+}
+div.container-fluid div.body_one div a h3{
+    margin-bottom: 20px;
+    font-family: Broadway;
+}
+div.container-fluid div.body_one div a p{
+    color: #666;
+    font-family: 方正舒体;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.container-fluid div.body_one div:last-child a p{
+    margin-bottom: 30px;
+}
+div.container-fluid div.body_one div a img{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+/******* 下方介绍introduce ********/
+div.container-fluid div.introduce{
+    height: 20rem;
+}
+div.container-fluid div.introduce>p{
+    color: #666;
+    font-family: 方正舒体;
+}
+div.container-fluid div.introduce>h2{
+    font-family: Broadway;
+}
+div.container-fluid div.introduce>a{
+    background: #1b1e21;
+    margin:0 40% 0 40%;
+    color: #818182;
+}
+div.container-fluid div.introduce>a:hover{
+    color: #fff;
+}
+
+/****** 主体two部分 *******/
+div.container-fluid div.body_two{
+    height: 120rem;
+}
+div.container-fluid div.body_two>div:nth-child(2){
+    position: relative;
+}
+div.container-fluid div.body_two>div:nth-child(2)>img,div.container-fluid div.body_two>div:nth-child(2)>a{
+    position: absolute;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a{
+    width: 180px;
+    height: 380px;
+    float: right;
+    text-decoration: none;
+    background: #f6f6f6;
+    color: #1b1b1b;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a>span{
+     margin-left: 65px;
+     font-family: "Vladimir Script";
+}
+div.container-fluid div.body_two>div:nth-child(2)>a>h3{
+    margin-bottom: 20px;
+    font-family: Broadway;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a>p{
+    color: #666;
+    font-family: 方正舒体;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a>img{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a.a_1{
+    top: 65px;
+    right: 65px;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a.a_2{
+    top: 690px;
+    left: 65px;
+}
+div.container-fluid div.body_two>div:nth-child(2)>a.a_3{
+    right: 65px;
+    bottom: 65px;
+}
+/****** 主体three部分 *******/
+div.container-fluid div.body_three{
+    height: 37rem;
+}
+div.container-fluid div.body_three ul li{
+    float: left;
+    width: 20%;
+    padding: 0 2px 0 2px;
+}
+div.container-fluid div.body_three ul li>img{
+    width: 100%;
+}
+.hidden{
+   display: none;
+}
+div.body_three{
+    position: relative;
+}
+div.body_three>a,div.body_three>ul{
+    position: absolute;
+}
+div.body_three>ul{
+    z-index: 1;
+}
+div.body_three>a:last-child{
+    right: 0;
+}
+a.up_btn{
+    z-index: 100;
+    width: 40%;
+    height: 565px;
+    background: #23272b;
+    opacity: 0.9;
+    font-size: 20rem;
+    color: #666;
+    line-height: 565px;
+    text-align: center;
+}
+a.up_btn:hover{
+    color: #fff;
+}
+/****** 主体four部分 *******/
+div.body_four>div>ul li{
+    font-size: 30px;
+    font-family: 方正舒体;
+    color: #4e555b;
+}
+div.body_four>div>ul li:first-child{
+    margin-top: 90px;
+}
+div.body_four+div>h2{
+    margin-top: 20px;
+}
+div.body_four+div.introduce{
+    height: 13rem;
+}
+/****** 主体five部分 *******/
+div.body_five>section{
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    height: 790px;
+}
+div.body_five>section>div{
+    position: absolute;
+    text-align: center;
+}
+div.body_five>section>div:nth-child(2){
+    top:50%
+}
+div.body_five>section>div:nth-child(3){
+    top: 0;
+    left: 35%;
+}
+div.body_five>section>div:nth-child(4){
+    right: 0;
+}
+div.body_five>section>div:last-child{
+    right: 0;
+    top: 50%;
+}
+div.body_five>section>div h3{
+    margin-top: 40px;
+    font-size: 20px;
+}
+div.body_five>section>div a{
+    color: #1b1b1b;
+}
+div.body_five>section>div a:hover{
+    color: #999;
+}
+div.body_five>div:first-child{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 65px;
+}
+div.body_five>div:first-child>hr{
+    width: 10%;
+    margin: 2% 45% 0 45%;
+}
+div.body_five>div.introduce>a{
+    margin:0 45% 0 45%;
+}
+div.body_five>div.introduce{
+    height: 9rem;
+}
+
+div.white{
+    height: 1rem;
+    background: #fff;
+}
+
+
+
+
+

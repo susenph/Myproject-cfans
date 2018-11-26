@@ -7,17 +7,16 @@ header.container-fluid{
     padding-left: 0;
 }
 header.container-fluid .row ul li a{
-    color: #e5dfd9;
+    color: #1b1e21;
     font-size: 0.7rem;
 }
 header.container-fluid .row ul li{
     line-height: 4rem;
 }
-header.container-fluid .row ul li a:hover{
-    text-decoration: none;
-    color: #fff;
-}
 header.container-fluid .row .classify li a{
     font-weight: bold;
     font-size: 0.9rem;
+}
+header.container-fluid .row ul li i{
+    color: #999;
 }
